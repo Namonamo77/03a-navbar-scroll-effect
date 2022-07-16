@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Practice: Project #3 Navbar hover scroll</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container nav-bar">
+        <div class="logo">
+          <img src="./images/paws.svg" alt="Paw logo" />
+          <h1 class="logo-title">PAWS</h1>
+        </div>
+        <ul>
+          <li class="nav-item">
+            <a href="#" data-page="home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-page="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-page="services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" data-page="contact">Contact</a>
+          </li>
+          <div class="trans"></div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section data-index="0" class="home">
+        <img src="./images/1.jpg" alt="Blue and orange bird on a tree" />
+      </section>
+      <section data-index="1" class="about">
+        <img src="./images/2.jpg" alt="Fox on the snow" />
+      </section>
+      <section data-index="2" class="services">
+        <img src="./images/3.jpg" alt="Panda eating bamboo" />
+      </section>
+      <section data-index="3" class="contact">
+        <img src="./images/4.jpg" alt="Elephant and his baby" />
+      </section>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
